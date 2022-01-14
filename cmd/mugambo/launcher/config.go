@@ -91,7 +91,7 @@ var (
 	}
 
 	AllowedmugamboGenesisHashes = map[uint64]hash.Hash{
-		mugambo.MainNetworkID: hash.HexToHash("0x8837f4bb078d925dc8bae64566595bef31004463bcd6f2efa456a40aceed0cf3"),
+		mugambo.MainNetworkID: hash.HexToHash("0xe08eebd05c7b786567e2d8a7a81be15fd9112a5e468d221b1903262b95fcb7d6"),
 		mugambo.TestNetworkID: hash.HexToHash("0x13b7713f72244037636aff3a91ee987a3089d06d807c1e01230a914fd6b37152"),
 	}
 )

@@ -1,4 +1,4 @@
-# Zilionixx
+# Mugambo
 
 EVM-compatible chain secured by the MugamboBFT consensus algorithm.
 

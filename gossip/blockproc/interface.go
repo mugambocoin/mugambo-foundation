@@ -1,7 +1,7 @@
 package blockproc
 
 import (
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/core/types"
 

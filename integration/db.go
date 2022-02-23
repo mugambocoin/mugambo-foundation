@@ -4,12 +4,12 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/dag"
-	"github.com/MugamboBC/mugambo-base/kvdb"
-	"github.com/MugamboBC/mugambo-base/kvdb/leveldb"
-	"github.com/MugamboBC/mugambo-base/kvdb/memorydb"
-	"github.com/MugamboBC/mugambo-base/utils/cachescale"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/dag"
+	"github.com/mugambocoin/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb/leveldb"
+	"github.com/mugambocoin/mugambo-base/kvdb/memorydb"
+	"github.com/mugambocoin/mugambo-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
 	"github.com/mugambocoin/mugambo-foundation/gossip"

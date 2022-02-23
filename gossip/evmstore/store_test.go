@@ -3,8 +3,8 @@ package evmstore
 import (
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/kvdb"
-	"github.com/MugamboBC/mugambo-base/kvdb/memorydb"
+	"github.com/mugambocoin/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb/memorydb"
 )
 
 func cachedStore() *Store {

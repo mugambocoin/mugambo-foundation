@@ -3,8 +3,8 @@ package integration
 import (
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/abft"
-	"github.com/MugamboBC/mugambo-base/utils/cachescale"
+	"github.com/mugambocoin/mugambo-base/abft"
+	"github.com/mugambocoin/mugambo-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"

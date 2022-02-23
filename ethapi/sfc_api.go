@@ -3,7 +3,7 @@ package ethapi
 import (
 	"context"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"

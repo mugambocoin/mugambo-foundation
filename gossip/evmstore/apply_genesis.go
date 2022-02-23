@@ -2,8 +2,8 @@ package evmstore
 
 import (
 	"github.com/mugambocoin/mugambo-foundation/mugambo"
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/kvdb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
 	"github.com/mugambocoin/mugambo-foundation/evmcore"

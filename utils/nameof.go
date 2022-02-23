@@ -3,8 +3,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 )
 
 // NameOf returns human readable string representation.

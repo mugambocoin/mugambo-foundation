@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 

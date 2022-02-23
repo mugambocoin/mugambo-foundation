@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	base "github.com/MugamboBC/mugambo-base/eventcheck/basiccheck"
+	base "github.com/mugambocoin/mugambo-base/eventcheck/basiccheck"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/mugambocoin/mugambo-foundation/evmcore"

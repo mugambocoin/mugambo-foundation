@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/mugambocoin/mugambo-foundation/mugambo"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/params"
 
 	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"

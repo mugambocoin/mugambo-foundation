@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/mugambocoin/mugambo-foundation/mugambo"
-	"github.com/MugamboBC/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/hash"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/abi"

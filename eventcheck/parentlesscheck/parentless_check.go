@@ -1,10 +1,10 @@
 package parentlesscheck
 
 import (
-	"github.com/MugamboBC/mugambo-base/eventcheck/epochcheck"
-	"github.com/MugamboBC/mugambo-base/eventcheck/queuedcheck"
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/dag"
+	"github.com/mugambocoin/mugambo-base/eventcheck/epochcheck"
+	"github.com/mugambocoin/mugambo-base/eventcheck/queuedcheck"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/dag"
 )
 
 type Checker struct {

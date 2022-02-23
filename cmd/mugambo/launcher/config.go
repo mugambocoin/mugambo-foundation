@@ -13,9 +13,9 @@ import (
 	"strings"
 
 	"github.com/mugambocoin/mugambo-foundation/mugambo"
-	"github.com/MugamboBC/mugambo-base/abft"
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/utils/cachescale"
+	"github.com/mugambocoin/mugambo-base/abft"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

@@ -3,7 +3,7 @@ package sfcapi
 import (
 	"math/big"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 )
 
 // GetDelegationClaimedRewards returns sum of claimed rewards in past, by this delegation

@@ -3,8 +3,8 @@ package inter
 import (
 	"bytes"
 
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/dag"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/dag"
 )
 
 // Events is a ordered slice of events.

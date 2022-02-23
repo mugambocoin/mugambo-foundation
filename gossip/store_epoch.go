@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/kvdb"
-	"github.com/MugamboBC/mugambo-base/kvdb/skiperrors"
-	"github.com/MugamboBC/mugambo-base/kvdb/table"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb/skiperrors"
+	"github.com/mugambocoin/mugambo-base/kvdb/table"
 
 	"github.com/mugambocoin/mugambo-foundation/logger"
 )

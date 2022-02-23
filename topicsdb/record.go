@@ -1,7 +1,7 @@
 package topicsdb
 
 import (
-	"github.com/MugamboBC/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 )

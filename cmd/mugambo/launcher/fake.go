@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 	cli "gopkg.in/urfave/cli.v1"
 
 	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"

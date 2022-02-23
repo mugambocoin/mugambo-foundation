@@ -3,11 +3,11 @@ package evmstore
 import (
 	"sync"
 
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/kvdb"
-	"github.com/MugamboBC/mugambo-base/kvdb/nokeyiserr"
-	"github.com/MugamboBC/mugambo-base/kvdb/table"
-	"github.com/MugamboBC/mugambo-base/utils/wlru"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb/nokeyiserr"
+	"github.com/mugambocoin/mugambo-base/kvdb/table"
+	"github.com/mugambocoin/mugambo-base/utils/wlru"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/core/state"

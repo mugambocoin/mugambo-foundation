@@ -5,9 +5,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/kvdb/table"
-	"github.com/MugamboBC/mugambo-base/utils/simplewlru"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/kvdb/table"
+	"github.com/mugambocoin/mugambo-base/utils/simplewlru"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"

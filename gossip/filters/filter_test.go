@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/MugamboBC/mugambo-base/kvdb/table"
+	"github.com/mugambocoin/mugambo-base/kvdb/table"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/consensus/ethash"
 	"github.com/ethereum/go-ethereum/core"

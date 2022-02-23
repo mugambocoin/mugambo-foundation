@@ -1,11 +1,11 @@
 package vecmt2dagidx
 
 import (
-	"github.com/MugamboBC/mugambo-base/abft"
-	"github.com/MugamboBC/mugambo-base/abft/dagidx"
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/vecfc"
+	"github.com/mugambocoin/mugambo-base/abft"
+	"github.com/mugambocoin/mugambo-base/abft/dagidx"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/vecfc"
 
 	"github.com/mugambocoin/mugambo-foundation/vecmt"
 )

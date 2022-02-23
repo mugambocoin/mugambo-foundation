@@ -3,9 +3,9 @@ package sealmodule
 import (
 	"math/big"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/inter/pos"
-	"github.com/MugamboBC/mugambo-base/mugambobft"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/pos"
+	"github.com/mugambocoin/mugambo-base/mugambobft"
 
 	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc"
 )

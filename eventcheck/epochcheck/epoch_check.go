@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/mugambocoin/mugambo-foundation/mugambo"
-	base "github.com/MugamboBC/mugambo-base/eventcheck/epochcheck"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	base "github.com/mugambocoin/mugambo-base/eventcheck/epochcheck"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/mugambocoin/mugambo-foundation/inter"

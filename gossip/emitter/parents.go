@@ -3,9 +3,9 @@ package emitter
 import (
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/emitter/ancestor"
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/emitter/ancestor"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 )
 
 // buildSearchStrategies returns a strategy for each parent search

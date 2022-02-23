@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MugamboBC/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/hash"
 	"github.com/ethereum/go-ethereum/log"
 )
 

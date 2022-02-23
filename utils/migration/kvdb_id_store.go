@@ -1,7 +1,7 @@
 package migration
 
 import (
-	"github.com/MugamboBC/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/mugambocoin/mugambo-foundation/mugambo"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 	"github.com/stretchr/testify/require"
 )
 

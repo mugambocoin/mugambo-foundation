@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/MugamboBC/mugambo-base/abft"
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/kvdb"
-	"github.com/MugamboBC/mugambo-base/kvdb/leveldb"
-	"github.com/MugamboBC/mugambo-base/utils/cachescale"
+	"github.com/mugambocoin/mugambo-base/abft"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb/leveldb"
+	"github.com/mugambocoin/mugambo-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 

@@ -1,7 +1,7 @@
 package verwatcher
 
 import (
-	"github.com/MugamboBC/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb"
 
 	"github.com/mugambocoin/mugambo-foundation/logger"
 )

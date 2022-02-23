@@ -2,7 +2,7 @@ package rlpstore
 
 import (
 	"github.com/mugambocoin/mugambo-foundation/logger"
-	"github.com/MugamboBC/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb"
 	"github.com/ethereum/go-ethereum/rlp"
 )
 

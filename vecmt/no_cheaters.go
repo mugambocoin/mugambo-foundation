@@ -3,7 +3,7 @@ package vecmt
 import (
 	"errors"
 
-	"github.com/MugamboBC/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/hash"
 )
 
 // NoCheaters excludes events which are observed by selfParents as cheaters.

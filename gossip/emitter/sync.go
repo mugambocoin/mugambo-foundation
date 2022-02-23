@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/emitter/doublesign"
-	"github.com/MugamboBC/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/emitter/doublesign"
+	"github.com/mugambocoin/mugambo-base/hash"
 
 	"github.com/mugambocoin/mugambo-foundation/inter"
 	"github.com/mugambocoin/mugambo-foundation/utils/errlock"

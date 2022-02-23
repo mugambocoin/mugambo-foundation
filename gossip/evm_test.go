@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/MugamboBC/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/hash"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 

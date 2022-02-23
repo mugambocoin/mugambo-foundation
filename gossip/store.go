@@ -4,12 +4,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/common/bigendian"
-	"github.com/MugamboBC/mugambo-base/kvdb"
-	"github.com/MugamboBC/mugambo-base/kvdb/flushable"
-	"github.com/MugamboBC/mugambo-base/kvdb/memorydb"
-	"github.com/MugamboBC/mugambo-base/kvdb/table"
-	"github.com/MugamboBC/mugambo-base/utils/wlru"
+	"github.com/mugambocoin/mugambo-base/common/bigendian"
+	"github.com/mugambocoin/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb/flushable"
+	"github.com/mugambocoin/mugambo-base/kvdb/memorydb"
+	"github.com/mugambocoin/mugambo-base/kvdb/table"
+	"github.com/mugambocoin/mugambo-base/utils/wlru"
 	"github.com/ethereum/go-ethereum/log"
 
 	"github.com/mugambocoin/mugambo-foundation/gossip/evmstore"

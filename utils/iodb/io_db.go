@@ -3,8 +3,8 @@ package iodb
 import (
 	"io"
 
-	"github.com/MugamboBC/mugambo-base/common/bigendian"
-	"github.com/MugamboBC/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/common/bigendian"
+	"github.com/mugambocoin/mugambo-base/kvdb"
 
 	"github.com/mugambocoin/mugambo-foundation/utils/ioread"
 )

@@ -1,8 +1,8 @@
 package gossip
 
 import (
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/inter/pos"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/pos"
 	"github.com/ethereum/go-ethereum/log"
 
 	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc"

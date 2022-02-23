@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/MugamboBC/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/hash"
 	"github.com/status-im/keycard-go/hexutils"
 
 	"github.com/mugambocoin/mugambo-foundation/utils/iodb"

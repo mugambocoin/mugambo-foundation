@@ -3,9 +3,9 @@ package emitter
 import (
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/emitter/ancestor"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/inter/pos"
+	"github.com/mugambocoin/mugambo-base/emitter/ancestor"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/pos"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/mugambocoin/mugambo-foundation/inter"

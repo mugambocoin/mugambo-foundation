@@ -1,7 +1,7 @@
 package evmstore
 
 import (
-	"github.com/MugamboBC/mugambo-base/utils/cachescale"
+	"github.com/mugambocoin/mugambo-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 )
 

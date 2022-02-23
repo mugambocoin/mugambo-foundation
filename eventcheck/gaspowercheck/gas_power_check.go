@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/eventcheck/epochcheck"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/inter/pos"
+	"github.com/mugambocoin/mugambo-base/eventcheck/epochcheck"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/pos"
 
 	"github.com/mugambocoin/mugambo-foundation/inter"
 )

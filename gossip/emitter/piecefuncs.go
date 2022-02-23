@@ -3,8 +3,8 @@ package emitter
 import (
 	"math"
 
-	"github.com/MugamboBC/mugambo-base/emitter/ancestor"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/emitter/ancestor"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 
 	"github.com/mugambocoin/mugambo-foundation/utils/piecefunc"
 )

@@ -3,7 +3,7 @@ package inter
 import (
 	"time"
 
-	"github.com/MugamboBC/mugambo-base/common/bigendian"
+	"github.com/mugambocoin/mugambo-base/common/bigendian"
 )
 
 type (

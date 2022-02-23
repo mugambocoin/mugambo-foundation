@@ -1,10 +1,10 @@
 package vecmt
 
 import (
-	"github.com/MugamboBC/mugambo-base/inter/dag"
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/vecengine"
-	"github.com/MugamboBC/mugambo-base/vecfc"
+	"github.com/mugambocoin/mugambo-base/inter/dag"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/vecengine"
+	"github.com/mugambocoin/mugambo-base/vecfc"
 
 	"github.com/mugambocoin/mugambo-foundation/inter"
 )

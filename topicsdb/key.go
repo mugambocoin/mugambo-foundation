@@ -1,7 +1,7 @@
 package topicsdb
 
 import (
-	"github.com/MugamboBC/mugambo-base/common/bigendian"
+	"github.com/mugambocoin/mugambo-base/common/bigendian"
 	"github.com/ethereum/go-ethereum/common"
 )
 

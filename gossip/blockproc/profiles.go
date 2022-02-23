@@ -3,8 +3,8 @@ package blockproc
 import (
 	"io"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
-	"github.com/MugamboBC/mugambo-base/inter/pos"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/pos"
 	"github.com/ethereum/go-ethereum/rlp"
 
 	"github.com/mugambocoin/mugambo-foundation/inter/drivertype"

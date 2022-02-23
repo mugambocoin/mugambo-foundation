@@ -4,7 +4,7 @@ import (
 	"github.com/pkg/errors"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/mugambo-base/inter/idx"
+	"github.com/mugambocoin/mugambo-base/inter/idx"
 
 	"github.com/mugambocoin/mugambo-foundation/gossip/emitter"
 	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"

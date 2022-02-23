@@ -1,7 +1,7 @@
 package kvdb2ethdb
 
 import (
-	"github.com/MugamboBC/mugambo-base/kvdb"
+	"github.com/mugambocoin/mugambo-base/kvdb"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

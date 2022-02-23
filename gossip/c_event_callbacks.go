@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/MugamboBC/mugambo-base/gossip/dagprocessor"
-	"github.com/MugamboBC/mugambo-base/hash"
-	"github.com/MugamboBC/mugambo-base/inter/dag"
+	"github.com/mugambocoin/mugambo-base/gossip/dagprocessor"
+	"github.com/mugambocoin/mugambo-base/hash"
+	"github.com/mugambocoin/mugambo-base/inter/dag"
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/mugambocoin/mugambo-foundation/eventcheck"

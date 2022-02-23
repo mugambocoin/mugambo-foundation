@@ -3,7 +3,7 @@ package parentscheck
 import (
 	"errors"
 
-	base "github.com/MugamboBC/mugambo-base/eventcheck/parentscheck"
+	base "github.com/mugambocoin/mugambo-base/eventcheck/parentscheck"
 
 	"github.com/mugambocoin/mugambo-foundation/inter"
 )

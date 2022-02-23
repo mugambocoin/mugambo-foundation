@@ -1,7 +1,7 @@
 package eventcheck
 
 import (
-	base "github.com/MugamboBC/mugambo-base/eventcheck"
+	base "github.com/mugambocoin/mugambo-base/eventcheck"
 
 	"github.com/mugambocoin/mugambo-foundation/eventcheck/epochcheck"
 )

@@ -19,15 +19,15 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/cmd/mugambo/launcher/metrics"
-	"github.com/MugamboBC/go-mugambo/cmd/mugambo/launcher/tracing"
-	"github.com/MugamboBC/go-mugambo/debug"
-	"github.com/MugamboBC/go-mugambo/flags"
-	"github.com/MugamboBC/go-mugambo/gossip"
-	"github.com/MugamboBC/go-mugambo/integration"
-	"github.com/MugamboBC/go-mugambo/utils/errlock"
-	"github.com/MugamboBC/go-mugambo/valkeystore"
-	_ "github.com/MugamboBC/go-mugambo/version"
+	"github.com/mugambocoin/mugambo-foundation/cmd/mugambo/launcher/metrics"
+	"github.com/mugambocoin/mugambo-foundation/cmd/mugambo/launcher/tracing"
+	"github.com/mugambocoin/mugambo-foundation/debug"
+	"github.com/mugambocoin/mugambo-foundation/flags"
+	"github.com/mugambocoin/mugambo-foundation/gossip"
+	"github.com/mugambocoin/mugambo-foundation/integration"
+	"github.com/mugambocoin/mugambo-foundation/utils/errlock"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore"
+	_ "github.com/mugambocoin/mugambo-foundation/version"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MugamboBC/go-mugambo/valkeystore/encryption"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore/encryption"
 )
 
 func TestFileKeystoreAdd(t *testing.T) {

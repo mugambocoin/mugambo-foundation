@@ -1,12 +1,12 @@
 package eventcheck
 
 import (
-	"github.com/MugamboBC/go-mugambo/eventcheck/basiccheck"
-	"github.com/MugamboBC/go-mugambo/eventcheck/epochcheck"
-	"github.com/MugamboBC/go-mugambo/eventcheck/gaspowercheck"
-	"github.com/MugamboBC/go-mugambo/eventcheck/heavycheck"
-	"github.com/MugamboBC/go-mugambo/eventcheck/parentscheck"
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/basiccheck"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/epochcheck"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/gaspowercheck"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/heavycheck"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/parentscheck"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 // Checkers is collection of all the checkers

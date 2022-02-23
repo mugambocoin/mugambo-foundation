@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/gossip"
+	"github.com/mugambocoin/mugambo-foundation/gossip"
 )
 
 var (

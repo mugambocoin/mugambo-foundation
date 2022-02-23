@@ -1,8 +1,8 @@
 package eventmodule
 
 import (
-	"github.com/MugamboBC/go-mugambo/gossip/blockproc"
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 type ValidatorEventsModule struct{}

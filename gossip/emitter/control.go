@@ -7,8 +7,8 @@ import (
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/MugamboBC/mugambo-base/inter/pos"
 
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils/piecefunc"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils/piecefunc"
 )
 
 func scalarUpdMetric(diff idx.Event, weight pos.Weight, totalWeight pos.Weight) ancestor.Metric {

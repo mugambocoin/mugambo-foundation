@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MugamboBC/go-mugambo/logger"
-	"github.com/MugamboBC/go-mugambo/utils"
+	"github.com/mugambocoin/mugambo-foundation/logger"
+	"github.com/mugambocoin/mugambo-foundation/utils"
 )
 
 func TestConsensusCallback(t *testing.T) {

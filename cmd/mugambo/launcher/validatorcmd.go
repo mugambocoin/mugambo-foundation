@@ -12,9 +12,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/inter/validatorpk"
-	"github.com/MugamboBC/go-mugambo/valkeystore"
-	"github.com/MugamboBC/go-mugambo/valkeystore/encryption"
+	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore/encryption"
 )
 
 var (

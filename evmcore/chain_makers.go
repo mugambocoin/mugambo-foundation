@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/core/types"
@@ -29,7 +29,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 // BlockGen creates blocks for testing.

@@ -8,9 +8,9 @@ import (
 	"github.com/MugamboBC/mugambo-base/kvdb"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils/concurrent"
-	"github.com/MugamboBC/go-mugambo/utils/migration"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils/concurrent"
+	"github.com/mugambocoin/mugambo-foundation/utils/migration"
 )
 
 func isEmptyDB(db kvdb.Iteratee) bool {

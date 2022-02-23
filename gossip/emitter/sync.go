@@ -7,8 +7,8 @@ import (
 	"github.com/MugamboBC/mugambo-base/emitter/doublesign"
 	"github.com/MugamboBC/mugambo-base/hash"
 
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils/errlock"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils/errlock"
 )
 
 type syncStatus struct {

@@ -24,12 +24,12 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/gossip"
-	"github.com/MugamboBC/go-mugambo/gossip/emitter"
-	"github.com/MugamboBC/go-mugambo/integration"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils/iodb"
-	"github.com/MugamboBC/go-mugambo/utils/ioread"
+	"github.com/mugambocoin/mugambo-foundation/gossip"
+	"github.com/mugambocoin/mugambo-foundation/gossip/emitter"
+	"github.com/mugambocoin/mugambo-foundation/integration"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils/iodb"
+	"github.com/mugambocoin/mugambo-foundation/utils/ioread"
 )
 
 type restrictedEvmBatch struct {

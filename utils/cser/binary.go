@@ -1,8 +1,8 @@
 package cser
 
 import (
-	"github.com/MugamboBC/go-mugambo/utils/bits"
-	"github.com/MugamboBC/go-mugambo/utils/fast"
+	"github.com/mugambocoin/mugambo-foundation/utils/bits"
+	"github.com/mugambocoin/mugambo-foundation/utils/fast"
 )
 
 func MarshalBinaryAdapter(marshalCser func(*Writer) error) ([]byte, error) {

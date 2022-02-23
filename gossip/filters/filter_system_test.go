@@ -35,9 +35,9 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/integration/makegenesis"
-	"github.com/MugamboBC/go-mugambo/topicsdb"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"
+	"github.com/mugambocoin/mugambo-foundation/topicsdb"
 )
 
 type testBackend struct {

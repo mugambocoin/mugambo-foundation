@@ -5,7 +5,7 @@ import (
 
 	base "github.com/MugamboBC/mugambo-base/eventcheck/parentscheck"
 
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 var (

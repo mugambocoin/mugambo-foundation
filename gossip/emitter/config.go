@@ -4,11 +4,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/MugamboBC/go-mugambo/inter/validatorpk"
+	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"
 )
 
 // EmitIntervals is the configuration of emit intervals.

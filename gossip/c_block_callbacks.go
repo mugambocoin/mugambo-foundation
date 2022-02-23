@@ -17,14 +17,14 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/gossip/blockproc"
-	"github.com/MugamboBC/go-mugambo/gossip/blockproc/verwatcher"
-	"github.com/MugamboBC/go-mugambo/gossip/emitter"
-	"github.com/MugamboBC/go-mugambo/gossip/evmstore"
-	"github.com/MugamboBC/go-mugambo/gossip/sfcapi"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc"
+	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc/verwatcher"
+	"github.com/mugambocoin/mugambo-foundation/gossip/emitter"
+	"github.com/mugambocoin/mugambo-foundation/gossip/evmstore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/sfcapi"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 )
 
 type ExtendedTxPosition struct {

@@ -5,7 +5,7 @@ import (
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 func (s *Store) GetGenesisHash() *hash.Hash {

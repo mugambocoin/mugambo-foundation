@@ -17,8 +17,8 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/simulations"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 
-	"github.com/MugamboBC/go-mugambo/integration/makegenesis"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesisstore"
+	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesisstore"
 )
 
 type topology func(net *simulations.Network, nodes []enode.ID)

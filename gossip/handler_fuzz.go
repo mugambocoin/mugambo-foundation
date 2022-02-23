@@ -10,10 +10,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/integration/makegenesis"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils"
 )
 
 const (

@@ -3,7 +3,7 @@ package valkeystore
 import (
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 
-	"github.com/MugamboBC/go-mugambo/valkeystore/encryption"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore/encryption"
 )
 
 func NewDefaultFileRawKeystore(dir string) *FileKeystore {

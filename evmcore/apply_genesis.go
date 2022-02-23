@@ -20,13 +20,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis"
 )
 
 // ApplyGenesis writes or updates the genesis block in db.

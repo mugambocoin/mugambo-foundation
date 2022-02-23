@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MugamboBC/go-mugambo/utils/bits"
-	"github.com/MugamboBC/go-mugambo/utils/fast"
+	"github.com/mugambocoin/mugambo-foundation/utils/bits"
+	"github.com/mugambocoin/mugambo-foundation/utils/fast"
 )
 
 func TestUint64Compact(t *testing.T) {

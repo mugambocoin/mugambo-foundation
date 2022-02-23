@@ -4,8 +4,8 @@ import (
 	"github.com/MugamboBC/mugambo-base/kvdb"
 	"github.com/MugamboBC/mugambo-base/kvdb/table"
 
-	"github.com/MugamboBC/go-mugambo/logger"
-	"github.com/MugamboBC/go-mugambo/utils/rlpstore"
+	"github.com/mugambocoin/mugambo-foundation/logger"
+	"github.com/mugambocoin/mugambo-foundation/utils/rlpstore"
 )
 
 // Store is a node persistent storage working over physical key-value database.

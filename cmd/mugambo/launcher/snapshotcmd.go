@@ -34,8 +34,8 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/gossip/evmstore/evmpruner"
-	"github.com/MugamboBC/go-mugambo/integration"
+	"github.com/mugambocoin/mugambo-foundation/gossip/evmstore/evmpruner"
+	"github.com/mugambocoin/mugambo-foundation/integration"
 )
 
 var (

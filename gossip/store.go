@@ -12,10 +12,10 @@ import (
 	"github.com/MugamboBC/mugambo-base/utils/wlru"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/MugamboBC/go-mugambo/gossip/evmstore"
-	"github.com/MugamboBC/go-mugambo/gossip/sfcapi"
-	"github.com/MugamboBC/go-mugambo/logger"
-	"github.com/MugamboBC/go-mugambo/utils/rlpstore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/evmstore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/sfcapi"
+	"github.com/mugambocoin/mugambo-foundation/logger"
+	"github.com/mugambocoin/mugambo-foundation/utils/rlpstore"
 )
 
 // Store is a node persistent storage working over physical key-value database.

@@ -7,7 +7,7 @@ import (
 	"github.com/MugamboBC/mugambo-base/hash"
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 
-	"github.com/MugamboBC/go-mugambo/utils/concurrent"
+	"github.com/mugambocoin/mugambo-foundation/utils/concurrent"
 )
 
 type sortedHead []byte

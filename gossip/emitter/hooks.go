@@ -8,8 +8,8 @@ import (
 	"github.com/MugamboBC/mugambo-base/inter/pos"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils/adapters/vecmt2dagidx"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils/adapters/vecmt2dagidx"
 )
 
 // OnNewEpoch should be called after each epoch change, and on startup

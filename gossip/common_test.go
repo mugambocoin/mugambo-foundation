@@ -22,13 +22,13 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/integration/makegenesis"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/mugambo"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/gpos"
-	"github.com/MugamboBC/go-mugambo/utils"
-	"github.com/MugamboBC/go-mugambo/utils/gsignercache"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/gpos"
+	"github.com/mugambocoin/mugambo-foundation/utils"
+	"github.com/mugambocoin/mugambo-foundation/utils/gsignercache"
 )
 
 const (

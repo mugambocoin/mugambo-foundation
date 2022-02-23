@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/stretchr/testify/require"
 )

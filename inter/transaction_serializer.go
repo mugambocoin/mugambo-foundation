@@ -7,7 +7,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/MugamboBC/go-mugambo/utils/cser"
+	"github.com/mugambocoin/mugambo-foundation/utils/cser"
 )
 
 var ErrUnknownTxType = errors.New("unknown tx type")

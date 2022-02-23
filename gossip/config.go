@@ -14,13 +14,13 @@ import (
 	"github.com/MugamboBC/mugambo-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/MugamboBC/go-mugambo/eventcheck/heavycheck"
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/gossip/blockproc/verwatcher"
-	"github.com/MugamboBC/go-mugambo/gossip/emitter"
-	"github.com/MugamboBC/go-mugambo/gossip/evmstore"
-	"github.com/MugamboBC/go-mugambo/gossip/filters"
-	"github.com/MugamboBC/go-mugambo/gossip/gasprice"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/heavycheck"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc/verwatcher"
+	"github.com/mugambocoin/mugambo-foundation/gossip/emitter"
+	"github.com/mugambocoin/mugambo-foundation/gossip/evmstore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/filters"
+	"github.com/mugambocoin/mugambo-foundation/gossip/gasprice"
 )
 
 const nominalSize uint = 1

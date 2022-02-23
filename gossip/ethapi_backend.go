@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	"github.com/MugamboBC/mugambo-base/hash"
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/MugamboBC/mugambo-base/inter/pos"
@@ -23,14 +23,14 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/pkg/errors"
 
-	"github.com/MugamboBC/go-mugambo/ethapi"
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/gossip/blockproc"
-	"github.com/MugamboBC/go-mugambo/gossip/sfcapi"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/inter/drivertype"
-	"github.com/MugamboBC/go-mugambo/topicsdb"
-	"github.com/MugamboBC/go-mugambo/tracing"
+	"github.com/mugambocoin/mugambo-foundation/ethapi"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc"
+	"github.com/mugambocoin/mugambo-foundation/gossip/sfcapi"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter/drivertype"
+	"github.com/mugambocoin/mugambo-foundation/topicsdb"
+	"github.com/mugambocoin/mugambo-foundation/tracing"
 )
 
 // EthAPIBackend implements ethapi.Backend.

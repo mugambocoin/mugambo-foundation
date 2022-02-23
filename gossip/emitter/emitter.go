@@ -17,13 +17,13 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/gossip/emitter/originatedtxs"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/logger"
-	"github.com/MugamboBC/go-mugambo/tracing"
-	"github.com/MugamboBC/go-mugambo/utils/piecefunc"
-	"github.com/MugamboBC/go-mugambo/utils/rate"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/gossip/emitter/originatedtxs"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/logger"
+	"github.com/mugambocoin/mugambo-foundation/tracing"
+	"github.com/mugambocoin/mugambo-foundation/utils/piecefunc"
+	"github.com/mugambocoin/mugambo-foundation/utils/rate"
 )
 
 const (

@@ -32,8 +32,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/MugamboBC/go-mugambo/topicsdb"
-	"github.com/MugamboBC/go-mugambo/utils/adapters/ethdb2kvdb"
+	"github.com/mugambocoin/mugambo-foundation/topicsdb"
+	"github.com/mugambocoin/mugambo-foundation/utils/adapters/ethdb2kvdb"
 )
 
 func testConfig() Config {

@@ -10,8 +10,8 @@ import (
 	"github.com/MugamboBC/mugambo-base/hash"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/MugamboBC/go-mugambo/utils/iodb"
-	"github.com/MugamboBC/go-mugambo/utils/ioread"
+	"github.com/mugambocoin/mugambo-foundation/utils/iodb"
+	"github.com/mugambocoin/mugambo-foundation/utils/ioread"
 )
 
 var (

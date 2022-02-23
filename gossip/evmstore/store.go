@@ -17,10 +17,10 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/MugamboBC/go-mugambo/logger"
-	"github.com/MugamboBC/go-mugambo/topicsdb"
-	"github.com/MugamboBC/go-mugambo/utils/adapters/kvdb2ethdb"
-	"github.com/MugamboBC/go-mugambo/utils/rlpstore"
+	"github.com/mugambocoin/mugambo-foundation/logger"
+	"github.com/mugambocoin/mugambo-foundation/topicsdb"
+	"github.com/mugambocoin/mugambo-foundation/utils/adapters/kvdb2ethdb"
+	"github.com/mugambocoin/mugambo-foundation/utils/rlpstore"
 )
 
 const nominalSize uint = 1

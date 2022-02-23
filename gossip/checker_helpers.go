@@ -3,14 +3,14 @@ package gossip
 import (
 	"sync/atomic"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	"github.com/MugamboBC/mugambo-base/hash"
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/MugamboBC/mugambo-base/inter/pos"
 
-	"github.com/MugamboBC/go-mugambo/eventcheck/gaspowercheck"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/inter/validatorpk"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/gaspowercheck"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"
 )
 
 // GasPowerCheckReader is a helper to run gas power check

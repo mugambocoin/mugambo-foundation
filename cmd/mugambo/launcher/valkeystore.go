@@ -12,8 +12,8 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/inter/validatorpk"
-	"github.com/MugamboBC/go-mugambo/valkeystore"
+	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore"
 )
 
 func addFakeValidatorKey(ctx *cli.Context, key *ecdsa.PrivateKey, pubkey validatorpk.PubKey, valKeystore valkeystore.RawKeystoreI) {

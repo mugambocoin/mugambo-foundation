@@ -7,7 +7,7 @@ import (
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/MugamboBC/mugambo-base/vecfc"
 
-	"github.com/MugamboBC/go-mugambo/vecmt"
+	"github.com/mugambocoin/mugambo-foundation/vecmt"
 )
 
 type Adapter struct {

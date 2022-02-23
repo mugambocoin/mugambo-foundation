@@ -15,12 +15,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/MugamboBC/go-mugambo/gossip"
-	"github.com/MugamboBC/go-mugambo/integration/makegenesis"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesisstore"
-	"github.com/MugamboBC/go-mugambo/utils"
-	"github.com/MugamboBC/go-mugambo/vecmt"
+	"github.com/mugambocoin/mugambo-foundation/gossip"
+	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesisstore"
+	"github.com/mugambocoin/mugambo-foundation/utils"
+	"github.com/mugambocoin/mugambo-foundation/vecmt"
 )
 
 func BenchmarkFlushDBs(b *testing.B) {

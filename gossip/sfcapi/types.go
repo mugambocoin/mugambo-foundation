@@ -6,7 +6,7 @@ import (
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 var (

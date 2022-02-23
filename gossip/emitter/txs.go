@@ -11,10 +11,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/MugamboBC/go-mugambo/eventcheck/epochcheck"
-	"github.com/MugamboBC/go-mugambo/eventcheck/gaspowercheck"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/epochcheck"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/gaspowercheck"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils"
 )
 
 const (

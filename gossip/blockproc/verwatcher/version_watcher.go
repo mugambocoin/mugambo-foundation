@@ -8,11 +8,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/MugamboBC/go-mugambo/logger"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/driver"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/driver/driverpos"
-	"github.com/MugamboBC/go-mugambo/utils/errlock"
-	"github.com/MugamboBC/go-mugambo/version"
+	"github.com/mugambocoin/mugambo-foundation/logger"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/driver"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/driver/driverpos"
+	"github.com/mugambocoin/mugambo-foundation/utils/errlock"
+	"github.com/mugambocoin/mugambo-foundation/version"
 )
 
 type VerWarcher struct {

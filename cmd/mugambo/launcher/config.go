@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	"github.com/MugamboBC/mugambo-base/abft"
 	"github.com/MugamboBC/mugambo-base/hash"
 	"github.com/MugamboBC/mugambo-base/utils/cachescale"
@@ -25,14 +25,14 @@ import (
 	"github.com/naoina/toml"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/evmcore"
-	"github.com/MugamboBC/go-mugambo/gossip"
-	"github.com/MugamboBC/go-mugambo/gossip/gasprice"
-	"github.com/MugamboBC/go-mugambo/integration"
-	"github.com/MugamboBC/go-mugambo/integration/makegenesis"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesisstore"
-	futils "github.com/MugamboBC/go-mugambo/utils"
-	"github.com/MugamboBC/go-mugambo/vecmt"
+	"github.com/mugambocoin/mugambo-foundation/evmcore"
+	"github.com/mugambocoin/mugambo-foundation/gossip"
+	"github.com/mugambocoin/mugambo-foundation/gossip/gasprice"
+	"github.com/mugambocoin/mugambo-foundation/integration"
+	"github.com/mugambocoin/mugambo-foundation/integration/makegenesis"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesisstore"
+	futils "github.com/mugambocoin/mugambo-foundation/utils"
+	"github.com/mugambocoin/mugambo-foundation/vecmt"
 )
 
 var (

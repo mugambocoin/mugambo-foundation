@@ -3,12 +3,12 @@ package epochcheck
 import (
 	"errors"
 
-	"github.com/MugamboBC/go-mugambo/mugambo"
+	"github.com/mugambocoin/mugambo-foundation/mugambo"
 	base "github.com/MugamboBC/mugambo-base/eventcheck/epochcheck"
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 var (

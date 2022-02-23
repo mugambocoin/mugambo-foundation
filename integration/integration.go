@@ -10,10 +10,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/MugamboBC/go-mugambo/gossip"
-	"github.com/MugamboBC/go-mugambo/inter/validatorpk"
-	"github.com/MugamboBC/go-mugambo/valkeystore"
-	"github.com/MugamboBC/go-mugambo/vecmt"
+	"github.com/mugambocoin/mugambo-foundation/gossip"
+	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore"
+	"github.com/mugambocoin/mugambo-foundation/vecmt"
 )
 
 var (

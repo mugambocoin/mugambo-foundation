@@ -16,8 +16,8 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/integration"
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/integration"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 var (

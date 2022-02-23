@@ -95,27 +95,27 @@ go test ./...
 If everything goes well, it should output something along these lines:
 
 ```
-ok  	github.com/MugamboBC/go-mugambo/app	0.033s
-?   	github.com/MugamboBC/go-mugambo/cmd/cmdtest	[no test files]
-ok  	github.com/MugamboBC/go-mugambo/cmd/mugambo	13.890s
-?   	github.com/MugamboBC/go-mugambo/cmd/mugambo/metrics	[no test files]
-?   	github.com/MugamboBC/go-mugambo/cmd/mugambo/tracing	[no test files]
-?   	github.com/MugamboBC/go-mugambo/crypto	[no test files]
-?   	github.com/MugamboBC/go-mugambo/debug	[no test files]
-?   	github.com/MugamboBC/go-mugambo/ethapi	[no test files]
-?   	github.com/MugamboBC/go-mugambo/eventcheck	[no test files]
-?   	github.com/MugamboBC/go-mugambo/eventcheck/basiccheck	[no test files]
-?   	github.com/MugamboBC/go-mugambo/eventcheck/gaspowercheck	[no test files]
-?   	github.com/MugamboBC/go-mugambo/eventcheck/heavycheck	[no test files]
-?   	github.com/MugamboBC/go-mugambo/eventcheck/parentscheck	[no test files]
-ok  	github.com/MugamboBC/go-mugambo/evmcore	6.322s
-?   	github.com/MugamboBC/go-mugambo/gossip	[no test files]
-?   	github.com/MugamboBC/go-mugambo/gossip/emitter	[no test files]
-ok  	github.com/MugamboBC/go-mugambo/gossip/filters	1.250s
-?   	github.com/MugamboBC/go-mugambo/gossip/gasprice	[no test files]
-?   	github.com/MugamboBC/go-mugambo/gossip/occuredtxs	[no test files]
-?   	github.com/MugamboBC/go-mugambo/gossip/piecefunc	[no test files]
-ok  	github.com/MugamboBC/go-mugambo/integration	21.640s
+ok  	github.com/mugambocoin/mugambo-foundation/app	0.033s
+?   	github.com/mugambocoin/mugambo-foundation/cmd/cmdtest	[no test files]
+ok  	github.com/mugambocoin/mugambo-foundation/cmd/mugambo	13.890s
+?   	github.com/mugambocoin/mugambo-foundation/cmd/mugambo/metrics	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/cmd/mugambo/tracing	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/crypto	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/debug	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/ethapi	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/eventcheck	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/eventcheck/basiccheck	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/eventcheck/gaspowercheck	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/eventcheck/heavycheck	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/eventcheck/parentscheck	[no test files]
+ok  	github.com/mugambocoin/mugambo-foundation/evmcore	6.322s
+?   	github.com/mugambocoin/mugambo-foundation/gossip	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/gossip/emitter	[no test files]
+ok  	github.com/mugambocoin/mugambo-foundation/gossip/filters	1.250s
+?   	github.com/mugambocoin/mugambo-foundation/gossip/gasprice	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/gossip/occuredtxs	[no test files]
+?   	github.com/mugambocoin/mugambo-foundation/gossip/piecefunc	[no test files]
+ok  	github.com/mugambocoin/mugambo-foundation/integration	21.640s
 ```
 
 Also it is tested with [fuzzing](./FUZZING.md).

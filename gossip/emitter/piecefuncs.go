@@ -6,7 +6,7 @@ import (
 	"github.com/MugamboBC/mugambo-base/emitter/ancestor"
 	"github.com/MugamboBC/mugambo-base/inter/idx"
 
-	"github.com/MugamboBC/go-mugambo/utils/piecefunc"
+	"github.com/mugambocoin/mugambo-foundation/utils/piecefunc"
 )
 
 var (

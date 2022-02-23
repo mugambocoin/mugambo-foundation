@@ -5,8 +5,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/MugamboBC/go-mugambo/inter/validatorpk"
-	"github.com/MugamboBC/go-mugambo/valkeystore/encryption"
+	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"
+	"github.com/mugambocoin/mugambo-foundation/valkeystore/encryption"
 )
 
 type SignerI interface {

@@ -10,12 +10,12 @@ import (
 	"github.com/MugamboBC/mugambo-base/inter/dag"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/MugamboBC/go-mugambo/eventcheck"
-	"github.com/MugamboBC/go-mugambo/eventcheck/epochcheck"
-	"github.com/MugamboBC/go-mugambo/gossip/blockproc"
-	"github.com/MugamboBC/go-mugambo/gossip/emitter"
-	"github.com/MugamboBC/go-mugambo/inter"
-	"github.com/MugamboBC/go-mugambo/utils/concurrent"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck"
+	"github.com/mugambocoin/mugambo-foundation/eventcheck/epochcheck"
+	"github.com/mugambocoin/mugambo-foundation/gossip/blockproc"
+	"github.com/mugambocoin/mugambo-foundation/gossip/emitter"
+	"github.com/mugambocoin/mugambo-foundation/inter"
+	"github.com/mugambocoin/mugambo-foundation/utils/concurrent"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"github.com/uber/jaeger-lib/metrics"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/MugamboBC/go-mugambo/tracing"
+	"github.com/mugambocoin/mugambo-foundation/tracing"
 )
 
 var EnableFlag = cli.BoolFlag{

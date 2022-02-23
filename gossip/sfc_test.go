@@ -35,17 +35,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MugamboBC/go-mugambo/gossip/contract/driver100"
-	"github.com/MugamboBC/go-mugambo/gossip/contract/driverauth100"
-	"github.com/MugamboBC/go-mugambo/gossip/contract/netinit100"
-	"github.com/MugamboBC/go-mugambo/gossip/contract/sfc100"
-	"github.com/MugamboBC/go-mugambo/logger"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/driver"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/driverauth"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/evmwriter"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/netinit"
-	"github.com/MugamboBC/go-mugambo/mugambo/genesis/sfc"
-	"github.com/MugamboBC/go-mugambo/utils"
+	"github.com/mugambocoin/mugambo-foundation/gossip/contract/driver100"
+	"github.com/mugambocoin/mugambo-foundation/gossip/contract/driverauth100"
+	"github.com/mugambocoin/mugambo-foundation/gossip/contract/netinit100"
+	"github.com/mugambocoin/mugambo-foundation/gossip/contract/sfc100"
+	"github.com/mugambocoin/mugambo-foundation/logger"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/driver"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/driverauth"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/evmwriter"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/netinit"
+	"github.com/mugambocoin/mugambo-foundation/mugambo/genesis/sfc"
+	"github.com/mugambocoin/mugambo-foundation/utils"
 )
 
 func TestSFC(t *testing.T) {

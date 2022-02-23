@@ -13,7 +13,7 @@ import (
 	"github.com/MugamboBC/mugambo-base/inter/pos"
 	"github.com/MugamboBC/mugambo-base/kvdb/memorydb"
 
-	"github.com/MugamboBC/go-mugambo/inter"
+	"github.com/mugambocoin/mugambo-foundation/inter"
 )
 
 func TestMedianTimeOnIndex(t *testing.T) {

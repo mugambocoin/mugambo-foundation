@@ -298,7 +298,7 @@ func makeNode(ctx *cli.Context, cfg *config, genesis integration.InputGenesis) (
 	signer := valkeystore.NewSigner(valKeystore)
 
 	// Create and register a gossip network service.
-
+	log.Info("Config: ", cfg)
 	svc, err := gossip.NewService(stack, cfg.Zilionixx, gdb, signer, blockProc, engine, dagIndex)
 	if err != nil {
 		utils.Fatalf("Failed to create the service: %v", err)

@@ -31,6 +31,7 @@ func NewIntegration(ctx *adapters.ServiceContext, genesis InputGenesis, stack *n
 		VectorClock:     vecmt.DefaultConfig(cachescale.Identity),
 	}
 
+	log.Info("Called on integration.go")
 	engine, dagIndex, gdb, _, _, blockProc := MakeEngine(DBProducer(ctx.Config.DataDir, cachescale.Identity), genesis, cfg)
 	_ = genesis.Close()
 

@@ -14,6 +14,7 @@ import (
 	"github.com/mugambocoin/mugambo-foundation/inter/validatorpk"
 	"github.com/mugambocoin/mugambo-foundation/valkeystore"
 	"github.com/mugambocoin/mugambo-foundation/vecmt"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

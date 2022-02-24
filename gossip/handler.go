@@ -32,7 +32,6 @@ import (
 	"github.com/mugambocoin/mugambo-foundation/inter"
 	"github.com/mugambocoin/mugambo-foundation/logger"
 	"github.com/mugambocoin/mugambo-foundation/mugambo"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

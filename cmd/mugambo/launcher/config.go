@@ -86,7 +86,7 @@ var (
 	}
 	RPCGlobalTxFeeCapFlag = cli.Float64Flag{
 		Name:  "rpc.txfeecap",
-		Usage: "Sets a cap on transaction fee (in ZNX) that can be sent via the RPC APIs (0 = no cap)",
+		Usage: "Sets a cap on transaction fee (in MGB) that can be sent via the RPC APIs (0 = no cap)",
 		Value: gossip.DefaultConfig(cachescale.Identity).RPCTxFeeCap,
 	}
 
@@ -165,7 +165,7 @@ func getZilionixxGenesis(ctx *cli.Context) integration.InputGenesis {
 		if err != nil {
 			log.Crit("Invalid flag", "flag", FakeNetFlag.Name, "err", err)
 		}
-		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToZnx(1000000000), futils.ToZnx(5000000))
+		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToMgb(1000000000), futils.ToMgb(5000000))
 		genesis = integration.InputGenesis{
 			Hash: fakeGenesisStore.Hash(),
 			Read: func(store *genesisstore.Store) error {
@@ -395,8 +395,8 @@ func defaultNodeConfig() node.Config {
 	cfg := NodeDefaultConfig
 	cfg.Name = clientIdentifier
 	cfg.Version = params.VersionWithCommit(gitCommit, gitDate)
-	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "znx", "dag", "sfc", "abft", "web3")
-	cfg.WSModules = append(cfg.WSModules, "eth", "znx", "dag", "sfc", "abft", "web3")
+	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "mgb", "dag", "sfc", "abft", "web3")
+	cfg.WSModules = append(cfg.WSModules, "eth", "mgb", "dag", "sfc", "abft", "web3")
 	cfg.IPCPath = "mugambo.ipc"
 	cfg.DataDir = DefaultDataDir()
 	return cfg

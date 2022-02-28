@@ -2,7 +2,7 @@ package utils
 
 import "math/big"
 
-// ToZnx number of ZNX to Wei
-func ToZnx(znx uint64) *big.Int {
-	return new(big.Int).Mul(new(big.Int).SetUint64(znx), big.NewInt(1e18))
+// ToMgb number of MGB to Wei
+func ToMgb(mgb uint64) *big.Int {
+	return new(big.Int).Mul(new(big.Int).SetUint64(mgb), big.NewInt(1e18))
 }

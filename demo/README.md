@@ -29,7 +29,7 @@ go run ../cmd/mugambo attach http://localhost:4000
 - Check the balance to ensure that node0 has something to transfer (node0 js-console):
 
 ```js
-znx.getBalance(znx.accounts[0]);
+mgb.getBalance(mgb.accounts[0]);
 ```
 
 output shows the balance value:
@@ -41,7 +41,7 @@ output shows the balance value:
 - Get node1 address:
 
 ```sh
-go run ../cmd/mugambo attach --exec "znx.accounts[0]" http://localhost:4001
+go run ../cmd/mugambo attach --exec "mgb.accounts[0]" http://localhost:4001
 ```
 
 output shows address:
@@ -53,9 +53,9 @@ output shows address:
 - Transfer some amount from node0 to node1 address as receiver (node0 js-console):
 
 ```js
-znx.sendTransaction(
+mgb.sendTransaction(
   {
-    from: znx.accounts[0],
+    from: mgb.accounts[0],
     to: "0x02aff1d0a9ed566e644f06fcfe7efe00a3261d03",
     value: "1000000000",
   },
@@ -74,7 +74,7 @@ output shows unique hash of the outgoing transaction:
 - Check the transaction status by its unique hash (js-console):
 
 ```sh
-znx.getTransactionReceipt("0x68a7c1daeee7e7ab5aedf0d0dba337dbf79ce0988387cf6d63ea73b98193adfd").blockNumber
+mgb.getTransactionReceipt("0x68a7c1daeee7e7ab5aedf0d0dba337dbf79ce0988387cf6d63ea73b98193adfd").blockNumber
 ```
 
 output shows number of block, transaction was included in:
@@ -86,8 +86,8 @@ output shows number of block, transaction was included in:
 - As soon as transaction is included into a block you will see new balance of both node addresses:
 
 ```sh
-go run ../cmd/mugambo attach --exec "znx.getBalance(znx.accounts[0])" http://localhost:4000
-go run ../cmd/mugambo attach --exec "znx.getBalance(znx.accounts[0])" http://localhost:4001
+go run ../cmd/mugambo attach --exec "mgb.getBalance(mgb.accounts[0])" http://localhost:4000
+go run ../cmd/mugambo attach --exec "mgb.getBalance(mgb.accounts[0])" http://localhost:4001
 ```
 
 outputs:

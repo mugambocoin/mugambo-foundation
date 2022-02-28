@@ -24,8 +24,8 @@ do
 	--fakenet=${ACC}/$N \
 	--port=${PORT} \
 	--nat extip:127.0.0.1 \
-	--http --http.addr="127.0.0.1" --http.port=${RPCP} --http.corsdomain="*" --http.api="eth,debug,net,admin,web3,personal,txpool,znx,dag" \
-	--ws --ws.addr="127.0.0.1" --ws.port=${WSP} --ws.origins="*" --ws.api="eth,debug,net,admin,web3,personal,txpool,znx,dag" \
+	--http --http.addr="127.0.0.1" --http.port=${RPCP} --http.corsdomain="*" --http.api="eth,debug,net,admin,web3,personal,txpool,mgb,dag" \
+	--ws --ws.addr="127.0.0.1" --ws.port=${WSP} --ws.origins="*" --ws.api="eth,debug,net,admin,web3,personal,txpool,mgb,dag" \
 	--nousb --verbosity=3 --tracing &>> mugambo$i.log)&
 
     echo -e "\tnode$i ok"

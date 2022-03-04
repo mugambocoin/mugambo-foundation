@@ -6,7 +6,7 @@ set -e
 
 echo -e "\nStart $N nodes:\n"
 
-go build -o ../build/demo_mugambo ../cmd/mugambo
+go build -o ../build/mugambo ../cmd/mugambo
 
 rm -f ./transactions.rlp
 for ((i=0;i<$N;i+=1))
@@ -19,7 +19,7 @@ do
     RPCP=$(($RPCP_BASE+$i))
     WSP=$(($WSP_BASE+$i))
     ACC=$(($i+1))
-    (../build/demo_mugambo \
+    (../build/mugambo \
 	--datadir=${DATADIR} \
 	--fakenet=${ACC}/$N \
 	--port=${PORT} \
@@ -43,7 +43,7 @@ attach_and_exec() {
             echo "  - attempt ${attempt}: " >&2
         fi;
 
-        res=$(../build/demo_mugambo --exec "${CMD}" attach http://127.0.0.1:${RPCP} 2> /dev/null)
+        res=$(../build/mugambo --exec "${CMD}" attach http://127.0.0.1:${RPCP} 2> /dev/null)
         if [ $? -eq 0 ]
         then
             #echo "success" >&2

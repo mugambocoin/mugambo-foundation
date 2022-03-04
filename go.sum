@@ -34,10 +34,6 @@ github.com/Azure/go-autorest/tracing v0.5.0/go.mod h1:r/s2XiOKccPW3HrqB+W0TQzfbt
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/DATA-DOG/go-sqlmock v1.3.3/go.mod h1:f/Ixk793poVmq4qj/V1dPUg2JEAKC73Q5eFN3EC/SaM=
-github.com/mugambocoin/go-ethereum v1.9.22-mugambo-0.1 h1:so9vUrYLPtRyF+GQbRoD4IzeD9n3RCi8LNBRhMRr7Tc=
-github.com/mugambocoin/go-ethereum v1.9.22-mugambo-0.1/go.mod h1:AItrK6rpGqvJuNAK06OPjCgxS71WP1EmWbn/t9zAM/M=
-github.com/mugambocoin/mugambo-base v1.0.2 h1:Up5CluS7APneVYEuN3K4xOTCr9gZmXlYm6PZ6W2xeRY=
-github.com/mugambocoin/mugambo-base v1.0.2/go.mod h1:oVXW2FzbV7ibeVSXADCreijSnfMPro8XqrHY14iWM5c=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 h1:fLjPD/aNc3UIOA6tDi6QXUemppXK3P9BI7mr2hd6gx8=
 github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
@@ -303,6 +299,10 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJ
 github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
 github.com/modern-go/reflect2 v1.0.1/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
 github.com/mschoch/smat v0.0.0-20160514031455-90eadee771ae/go.mod h1:qAyveg+e4CE+eKJXWVjKXM4ck2QobLqTDytGJbLLhJg=
+github.com/mugambocoin/go-ethereum v0.0.0-20220223082712-c5d4f732e5ab h1:q6bF3fjJ3IzSQ/FnsQP51sZrKawIF9MgKoKpv5bwP+w=
+github.com/mugambocoin/go-ethereum v0.0.0-20220223082712-c5d4f732e5ab/go.mod h1:AItrK6rpGqvJuNAK06OPjCgxS71WP1EmWbn/t9zAM/M=
+github.com/mugambocoin/mugambo-base v0.0.0-20220223082835-f45be66599bb h1:V+YpZPRp7LoHJSJDeUIQKhCIkN02Vx6qpf73CSZSJvU=
+github.com/mugambocoin/mugambo-base v0.0.0-20220223082835-f45be66599bb/go.mod h1:jmNEERB4EruPNYb50hW5CIhUkmHxIzQR01/Uvbt1Gu8=
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/naoina/go-stringutil v0.1.0 h1:rCUeRUHjBjGTSHl0VC00jUPLz8/F9dDzYI70Hzifhks=
 github.com/naoina/go-stringutil v0.1.0/go.mod h1:XJ2SJL9jCtBh+P9q5btrd/Ylo8XwT/h1USek5+NqSA0=

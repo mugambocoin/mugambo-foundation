@@ -3,7 +3,6 @@ module github.com/mugambocoin/mugambo-foundation
 go 1.14
 
 require (
-	github.com/mugambocoin/mugambo-base f45be66599bbc467ec6814247029e5a1fbeadb39 // indirects
 	github.com/allegro/bigcache v1.2.1 // indirect
 	github.com/certifi/gocertifi v0.0.0-20191021191039-0944d244cd40 // indirect
 	github.com/cespare/cp v1.1.1
@@ -25,6 +24,7 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/mattn/go-colorable v0.1.4
 	github.com/mattn/go-isatty v0.0.10
+	github.com/mugambocoin/mugambo-base v0.0.0-20220223082835-f45be66599bb // indirects
 	github.com/naoina/toml v0.1.2-0.20170918210437-9fafd6967416
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/pkg/errors v0.9.1
@@ -43,6 +43,6 @@ require (
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
 
-replace github.com/ethereum/go-ethereum => github.com/mugambocoin/go-ethereum c5d4f732e5ab9c73cc29b6493ff4608aa5b7fcf3
+replace github.com/ethereum/go-ethereum => github.com/mugambocoin/go-ethereum v0.0.0-20220223082712-c5d4f732e5ab
 
 replace github.com/dvyukov/go-fuzz => github.com/guzenok/go-fuzz v0.0.0-20210103140116-f9104dfb626f
